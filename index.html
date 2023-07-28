@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSUEH, YU-TING</title>
+    <link  rel = "stylesheet"  href = "./scss/all.css" >
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+</head>
+
+
+<body>
+    <div>
+        <div class="flip-card click interactive" onclick="addClickedCss(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front card-1">
+                </div>
+                <div class="flip-card-back card-2">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            <button class="custom-btn btn-3">
+                <span>
+                    <a href="https://www.instagram.com/chen_1068/" target="_blank">
+                        Instagram
+                    </a>
+                </span>
+            </button>
+        </div>
+        <div class="box">
+            <button class="custom-btn btn-3">
+                <span>
+                    <a href="https://www.facebook.com/ethanhsueh1202" target="_blank">
+                        Facebook
+                    </a>
+                </span>
+            </button>
+        </div>
+        
+    </div>
+    <script>
+        function addClickedCss(e) {
+            e.classList.toggle('clicked');
+        }
+        
+    </script>
+</body>
+</html>
